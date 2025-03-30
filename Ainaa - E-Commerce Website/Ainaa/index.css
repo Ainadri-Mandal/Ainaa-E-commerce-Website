@@ -127,6 +127,88 @@ body{
     fill:rgb(185, 4, 73);
 }
 
+/* Hamburger Menu */
+#menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+
+#menu-toggle span {
+    background: #283618;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+/* Mobile Menu Button */
+#mobile-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #283618;
+}
+
+/* Responsive Navbar */
+/* Mobile Menu Button */
+#mobile-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #283618;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #FEFAE0;
+        width: 200px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+    }
+
+    #navbar.active {
+        display: flex;
+    }
+
+    #navbar li {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        position: relative; /* Required for pseudo-element positioning */
+    }
+
+    #navbar li a {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    /* Pink underline effect */
+    #navbar li a.active::after,
+    #navbar li a:hover::after {
+        content: "";
+        width: 50%;
+        height: 2px;
+        background: rgb(185, 4, 73);
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+}
+
+
 /* Home page */
 
 #hero{
