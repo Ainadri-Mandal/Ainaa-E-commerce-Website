@@ -1,5 +1,5 @@
 # 🛍️ Ainaa : E-Commerce Website 
-👉 [Click here to visit the live site]([https://yourwebsite.com](https://ainadri-mandal.github.io/Ainaa-E-commerce-Website/))
+👉 [Click here to visit the live site](https://ainadri-mandal.github.io/Ainaa-E-commerce-Website/)
 
 A responsive e-commerce website built with **HTML, CSS, and JavaScript**. It features a fully functional **navigation menu**, **animated hover effects**, and a **mobile-friendly hamburger menu**.  
 
